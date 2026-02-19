@@ -4,9 +4,9 @@
 
 ### Step 1 - Set Up Azure DevOps
 
-To start, we'll set up an Azure DevOps (ADO) workspace within an ACloudGuru sandbox to explore this exercise.
+To start, we'll set up an Azure DevOps (ADO) workspace within a Pluralsight cloud sandbox to explore this exercise.
 
-Visit [the Cloud Sandboxes page in ACG](https://learn.acloud.guru/cloud-playground/cloud-sandboxes) now, and start an Azure Sandbox. Open that as guided, noting the instructions to open the Azure portal in an incognito browser to avoid contamination with any existing Microsoft accounts!
+Visit [the Cloud Sandboxes page in Pluralsight](https://app.pluralsight.com/hands-on/playground/cloud-sandboxes) now, and start an Azure Sandbox. Open that as guided, noting the instructions to open the Azure portal in an incognito browser to avoid contamination with any existing Microsoft accounts!
 
 To create that ADO workspace:
 * Search for `Azure DevOps Organizations` in the search bar from the https://portal.azure.com homepage and select "My Azure DevOps Organizations" or jump directly to <https://aex.dev.azure.com/>
