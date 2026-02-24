@@ -32,6 +32,7 @@ jobs:
       run: 'npm t'
 
     - name: Runs the TypeScript tests
+      working-directory: './DotnetTemplate.Web'
       run: 'npm run lint'
 
 
