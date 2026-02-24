@@ -28,6 +28,7 @@ jobs:
       run: 'npm run build'
 
     - name: Runs the linter
+      working-directory: './DotnetTemplate.Web' 
       run: 'npm t'
 
     - name: Runs the TypeScript tests
