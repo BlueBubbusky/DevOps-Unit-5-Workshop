@@ -16,7 +16,7 @@ jobs:
     - name: Build the code
       run: 'dotnet build'
 
-    - name: Runs the code
-      run: 'DotnetTemplate.Web/dotnet run'
+    - name: Tests the code
+      run: 'dotnet test'
 
 
