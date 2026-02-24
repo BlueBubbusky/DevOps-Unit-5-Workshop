@@ -14,9 +14,9 @@ jobs:
         who-to-greet: 'Mona the Octocat'
 
     - name: Build the code
-      uses: ./dotnet build
+      run: ./dotnet build
 
     - name: Runs the code
-      uses: ./DotnetTemplate.Web/dotnet run
+      run: ./DotnetTemplate.Web/dotnet run
 
 
