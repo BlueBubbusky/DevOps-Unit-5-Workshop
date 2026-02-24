@@ -19,11 +19,13 @@ jobs:
     - name: Tests the code
       run: 'dotnet test'
 
-    - name: Builds the TypeScript code
-      steps:
+    - name: Builds the TypeScript code part 1
       working-directory: './DotnetTemplate.Web'
-        run: 'npm install'
-        run: 'npm run build'
+      run: 'npm install'
+
+    - name: Builds the TypeScript code part 2
+      working-directory: './DotnetTemplate.Web' 
+      run: 'npm run build'
 
     - name: Runs the linter
       run: 'npm t'
